@@ -1,2 +1,6 @@
-# ahq_tracker
-A wrapper of invites tracker
+AHQ Wrapper For Invite Tracker!
+
+Set process.env.INVITES to MONGODB URL
+
+~AHQ Softwares
+AHQ Miness!

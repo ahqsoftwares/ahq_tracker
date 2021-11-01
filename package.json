@@ -1,0 +1,16 @@
+{
+    "name": "ahq_tracker",
+    "version": "0.2.3",
+    "description": "Invite Tracker Wrapper by AHQ Miness",
+    "main": "index.js",
+    "dependencies": {
+      "quickmongo": "git+https://github.com/mrredo/quickmongo.git",
+      "events": "^3.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "AHQ_Miness_YT_PRIVATE",
+    "license": "ISC"
+}
