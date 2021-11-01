@@ -2,7 +2,7 @@ var EventEmitter = require('events')
 const { DB } = require("quickmongo");
 const mdb = new DB(process.env.INVITES);
 
-function aJson(input,value,database,type){
+function aJson (async,input,value,database,type) {
 	if(type){
 let a = (await(mdb.get(database)))
 let text = JSON.stringify(a)
@@ -43,7 +43,7 @@ module.exports = class Invite extends EventEmitter{
 		let invites = (await(mdb.get(`invites`)))
 		let invited = (await(mdb.get(`invited`)))
 		let event = new EventEmitter
-		client.on('ready', () => {
+		client.on('ready', async () => {
     client.guilds.cache.forEach(async guild => { 
         guild.invites.fetch().then(async guildInvites => {
           guildInvites.forEach(async guildInvite => {
