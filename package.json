@@ -1,8 +1,8 @@
 {
     "name": "ahq_tracker",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Developer Only",
-    "main": "index.js",
+    "main": "fork.js",
     "dependencies": {
         "events": "^3.3.0",
         "fs": "^0.0.1-security",
