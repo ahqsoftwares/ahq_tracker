@@ -5,6 +5,7 @@
     "main": "index.js",
     "dependencies": {
         "events": "^3.3.0",
+        "fs": "^0.0.1-security",
         "quickmongo": "git+https://github.com/mrredo/quickmongo.git"
     },
     "scripts": {
