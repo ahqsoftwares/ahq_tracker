@@ -6,7 +6,8 @@
     "dependencies": {
         "events": "^3.3.0",
         "fs": "^0.0.1-security",
-        "quickmongo": "git+https://github.com/mrredo/quickmongo.git"
+        "quickmongo": "git+https://github.com/mrredo/quickmongo.git",
+        "easy-json-database": "^1.5.0"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
