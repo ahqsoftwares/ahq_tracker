@@ -2,11 +2,10 @@
     "name": "ahq_tracker",
     "version": "1.0.2.0.3.8.0",
     "description": "Developer Only",
-    "main": "code.js",
+    "main": "index.js",
     "dependencies": {
         "events": "^3.3.0",
-        "fs": "^0.0.1-security",
-        "quickmongo": "github:mrredo/quickmongo"
+        "quickmongo": "git+https://github.com/mrredo/quickmongo.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
