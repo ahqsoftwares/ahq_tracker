@@ -4,10 +4,10 @@
     "description": "Developer Only",
     "main": "fork.js",
     "dependencies": {
+        "easy-json-database": "^1.5.0",
         "events": "^3.3.0",
         "fs": "^0.0.1-security",
-        "quickmongo": "git+https://github.com/mrredo/quickmongo.git",
-        "easy-json-database": "^1.5.0"
+        "quickmongo": "github:mrredo/quickmongo"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
